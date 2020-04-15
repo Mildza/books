@@ -1,0 +1,46 @@
+$customGrey: #dee2e6;
+$customBlue: #007bff;
+
+.pagination {
+  margin: 20px 0px;
+  padding: 0px;
+  text-align: center;
+  .page-item {
+    display: inline-block;
+  }
+  button {
+    background-color: whitesmoke;
+    outline: none;
+    border: 1px solid $customGrey;
+    padding: 10px 16px;
+    font-size: 1.2em;
+    color: $customBlue;
+  }
+  .disabled {
+    pointer-events: none;
+    background-color: $customGrey;
+    color: black;
+  }
+  .page-link {
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: $customBlue;
+    border: 1px solid whitesmoke;
+    color: white;
+    transform: scale(1.1);
+  }
+  .active:hover {
+    background-color: $customBlue;
+  }
+
+  .page-num {
+    text-align: right;
+    font-style: italic;
+  }
+
+  .page-num span {
+    color: blue;
+  }
+}

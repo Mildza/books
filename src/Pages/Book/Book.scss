@@ -1,0 +1,29 @@
+.details {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #bb7d7b;
+  border: 10px solid #bb7d7b;
+  border-radius: 10px;
+  text-align: center;
+  @media (max-width: 576px) {
+    width: 95%;
+  }
+  h1 {
+    background-color: #bb7d7b;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+
+    margin-bottom: 0px;
+  }
+  .content {
+    border: 1px solid wheat;
+    background-color: wheat;
+    color: #5e3f3e;
+    border-radius: 10px 10px 0px 0px;
+    h4 > span,
+    h3 > span {
+      font-size: 1.3em;
+    }
+  }
+}
