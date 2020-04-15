@@ -1,6 +1,6 @@
 # Browse books from the OpenLibrary API
 
-[LIVE](http://frontend.milton-soft.com/react/books/)
+## [LIVE](http://frontend.milton-soft.com/react/books/)
 
 ## Custom caching using closures
 
