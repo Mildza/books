@@ -8,7 +8,7 @@ home and book detail page uses different api calls, so main search is cached and
 
 ## Pagination
 
-api return aray of only 100 books, also position is cached
+api return array of only 100 books, also position is cached
 
 ### Main endpoints
 
